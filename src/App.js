@@ -1,11 +1,10 @@
-import React from 'react';
-import './App.css';
-import { Provider } from 'react-redux'
+import React from "react";
+import "./App.css";
+import {Provider} from "react-redux";
 import Familylist from "./components/family/list/index";
 import AddFamily from "./components/family/add/index";
 import store from "./store/index";
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
-
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 
 class App extends React.Component {
